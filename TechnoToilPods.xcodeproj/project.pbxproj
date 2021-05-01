@@ -30,6 +30,7 @@
 		816EE52A263D6FC700FC2891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		816EE52C263D6FC700FC2891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		816EE532263D719100FC2891 /* TechnoToilPods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnoToilPods.swift; sourceTree = "<group>"; };
+		816EE538263D8BCF00FC2891 /* TechnoToilPods-Swift1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TechnoToilPods-Swift1.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 				816EE50F263D6F4300FC2891 /* TechnoToilPods.h */,
 				816EE510263D6F4300FC2891 /* Info.plist */,
 				816EE532263D719100FC2891 /* TechnoToilPods.swift */,
+				816EE538263D8BCF00FC2891 /* TechnoToilPods-Swift1.h */,
 			);
 			path = TechnoToilPods;
 			sourceTree = "<group>";
@@ -380,9 +382,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.TechnoToilPods;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -405,8 +408,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.TechnoToilPods;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
