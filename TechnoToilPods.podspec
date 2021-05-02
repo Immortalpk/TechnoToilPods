@@ -65,6 +65,7 @@ This CocoaPods library helps you perform calculation.
   #
 
   spec.platform     = :ios
+  
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
