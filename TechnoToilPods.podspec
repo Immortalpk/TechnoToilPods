@@ -121,7 +121,9 @@ This CocoaPods library helps you perform calculation.
   #
 
   # spec.framework  = "SomeFramework"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
+  # spec.frameworks = "TelerikUI"
+  spec.dependency 'AFNetworking', '~> 1.0'
+
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
@@ -137,5 +139,6 @@ This CocoaPods library helps you perform calculation.
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+  # spec.vendored_frameworks = 'TechnoToilPods.framework'
 
 end
